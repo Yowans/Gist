@@ -49,7 +49,7 @@ wilder@wilder-ThinkPad-T440p:~$ ls /bin
  apt-add-repository                   mlabel
  apt-cache                            mmcli
  apt-cdrom                            mmd
- apt-config                           mmount
+ apt-config                           mount
  aptdcon                              mmove
  apt-extracttemplates                 monitor-sensor
  apt-ftparchive                       more
