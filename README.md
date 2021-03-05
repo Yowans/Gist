@@ -1,722 +1,286 @@
-wilder@wilder-ThinkPad-T440p:~$ ls
-Bureau     foldername  Modèles  Public       Téléchargements  Vidéos
-Documents  Images      Musique  tacosfolder  vide             wild-git
-wilder@wilder-ThinkPad-T440p:~$ ls .
-Bureau     foldername  Modèles  Public       Téléchargements  Vidéos
-Documents  Images      Musique  tacosfolder  vide             wild-git
-wilder@wilder-ThinkPad-T440p:~$ ls -a
-.              .cache      .gnupg    .pki                       Téléchargements
-..             .config     Images    .profile                   .thunderbird
-.bash_history  Documents   .local    Public                     vide
-.bash_logout   foldername  Modèles   .ssh                       Vidéos
-.bashrc        .gconf      .mozilla  .sudo_as_admin_successful  wild-git
-Bureau         .gitconfig  Musique   tacosfolder
-wilder@wilder-ThinkPad-T440p:~$ ls Images
-wilder@wilder-ThinkPad-T440p:~$ ls ./Images
-wilder@wilder-ThinkPad-T440p:~$ ls /home/wilder
-Bureau     foldername  Modèles  Public       Téléchargements  Vidéos
-Documents  Images      Musique  tacosfolder  vide             wild-git
-wilder@wilder-ThinkPad-T440p:~$ ls /home
-wilder
-wilder@wilder-ThinkPad-T440p:~$ ls /bin
-'['                                   mcopy
- aa-enabled                           md5sum
- aa-exec                              md5sum.textutils
- aconnect                             mdel
- acpi_listen                          mdeltree
- add-apt-repository                   mdig
- addpart                              mdir
- alsabat                              mdu
- alsaloop                             mesa-overlay-control.py
- alsamixer                            mesg
- alsatplg                             mformat
- alsaucm                              migrate-pubring-from-classic-gpg
- amidi                                mimeopen
- amixer                               mimetype
- amuFormat.sh                         min12xxw
- apg                                  minfo
- apgbfm                               mkdir
- aplay                                mkfifo
- aplaymidi                            mkfontdir
- apport-bug                           mkfontscale
- apport-cli                           mkisofs
- apport-collect                       mkmanifest
- apport-unpack                        mk_modmap
- appres                               mknod
- appstreamcli                         mksquashfs
- apropos                              mktemp
- apt                                  mkzftree
- apt-add-repository                   mlabel
- apt-cache                            mmcli
- apt-cdrom                            mmd
- apt-config                           mount
- aptdcon                              mmove
- apt-extracttemplates                 monitor-sensor
- apt-ftparchive                       more
- apt-get                              mount
- apt-key                              mountpoint
- apt-mark                             mousetweaks
- apt-sortpkgs                         mpartition
- apturl                               mrd
- apturl-gtk                           mren
- arch                                 mscompress
- arecord                              msexpand
- arecordmidi                          mshortname
- arm2hpdl                             mshowfat
- aseqdump                             mt
- aseqnet                              mt-gnu
- aspell                               mtools
- aspell-import                        mtoolstest
- atobm                                mtr
- avahi-browse                         mtr-packet
- avahi-browse-domains                 mtype
- avahi-publish                        mutter
- avahi-publish-address                mv
- avahi-publish-service                mxtar
- avahi-resolve                        mzip
- avahi-resolve-address                namei
- avahi-resolve-host-name              nano
- avahi-set-host-name                  nautilus
- awk                                  nautilus-autorun-software
- axfer                                nautilus-sendto
- b2sum                                nawk
- baobab                               nc
- base32                               ncal
- base64                               nc.openbsd
- basename                             neqn
- bash                                 netcat
- bashbug                              netkit-ftp
- bc                                   networkctl
- bccmd                                networkd-dispatcher
- bdftopcf                             newgrp
- bdftruncate                          ngettext
- bitmap                               nice
- bluemoon                             nisdomainname
- bluetoothctl                         nl
- bluetooth-sendto                     nm-applet
- bmtoa                                nmcli
- boltctl                              nm-connection-editor
- bootctl                              nm-online
- brltty                               nmtui
- brltty-ctb                           nmtui-connect
- brltty-trtxt                         nmtui-edit
- brltty-ttb                           nmtui-hostname
- broadwayd                            nohup
- browse                               notify-send
- bsd-from                             nproc
- bsd-write                            nroff
- btattach                             nsenter
- btmgmt                               nslookup
- btmon                                nstat
- bunzip2                              nsupdate
- busctl                               ntfs-3g
- busybox                              ntfs-3g.probe
- bwrap                                ntfscat
- bzcat                                ntfscluster
- bzcmp                                ntfscmp
- bzdiff                               ntfsdecrypt
- bzegrep                              ntfsfallocate
- bzexe                                ntfsfix
- bzfgrep                              ntfsinfo
- bzgrep                               ntfsls
- bzip2                                ntfsmove
- bzip2recover                         ntfsrecover
- bzless                               ntfssecaudit
- bzmore                               ntfstruncate
- cal                                  ntfsusermap
- calendar                             ntfswipe
- calibrate_ppa                        numfmt
- canberra-gtk-play                    nvidia-detector
- cancel                               oakdecode
- captoinfo                            obexctl
- cat                                  oclock
- catchsegv                            od
- catman                               oem-getlogs
- cautious-launcher                    on_ac_power
- cd-create-profile                    openssl
- cd-fix-profile                       openvt
- cd-iccdump                           opldecode
- cd-it8                               orca
- chacl                                orca-dm-wrapper
- chage                                os-prober
- chardet3                             p11-kit
- chardetect3                          pacat
- chattr                               pacmd
- chcon                                pactl
- check-language-support               padsp
- cheese                               pager
- chfn                                 pa-info
- chgrp                                pamon
- chmod                                paperconf
- choom                                paplay
- chown                                parec
- chrt                                 parecord
- chsh                                 partx
- chvt                                 passwd
- ciptool                              paste
- ckbcomp                              pasteurize
- cksum                                pasuspender
- clear                                patch
- clear_console                        pathchk
- cmp                                  pax11publish
- codepage                             pdb3
- col                                  pdb3.8
- colcrt                               pdf2dsc
- colormgr                             pdf2ps
- colrm                                pdfattach
- column                               pdfdetach
- comm                                 pdffonts
- compose                              pdfimages
- corelist                             pdfinfo
- cp                                   pdfseparate
- cpan                                 pdfsig
- cpan5.30-x86_64-linux-gnu            pdftocairo
- cpio                                 pdftohtml
- cpp                                  pdftoppm
- cpp-9                                pdftops
- c_rehash                             pdftotext
- crontab                              pdfunite
- csplit                               peekfd
- ctstat                               perl
- cupstestppd                          perl5.30.0
- cut                                  perl5.30-x86_64-linux-gnu
- cvt                                  perlbug
- cvtsudoers                           perldoc
- dash                                 perli11ndoc
- date                                 perlivp
- dbus-cleanup-sockets                 perlthanks
- dbus-daemon                          pf2afm
- dbus-launch                          pfbtopfa
- dbus-monitor                         pftp
- dbus-run-session                     pgrep
- dbus-send                            pic
- dbus-update-activation-environment   pico
- dbus-uuidgen                         piconv
- dc                                   pidof
- dconf                                pinentry
- dd                                   pinentry-curses
- ddstdecode                           pinentry-gnome3
- deallocvt                            pinentry-x11
- debconf                              ping
- debconf-apt-progress                 ping4
- debconf-communicate                  ping6
- debconf-copydb                       pinky
- debconf-escape                       pkaction
- debconf-set-selections               pkcheck
- debconf-show                         pkcon
- deb-systemd-helper                   pkexec
- deb-systemd-invoke                   pkg-config
- deja-dup                             pkill
- delpart                              pkmon
- delv                                 pkttyagent
- desktop-file-edit                    pl2pm
- desktop-file-install                 pldd
- desktop-file-validate                plog
- devdump                              plymouth
- df                                   pmap
- dfu-tool                             pnm2ppa
- dh_bash-completion                   pod2html
- dh_installxmlcatalogs                pod2man
- dh_perl_openssl                      pod2text
- diff                                 pod2usage
- diff3                                podchecker
- dig                                  podselect
- dir                                  poff
- dircolors                            pon
- dirmngr                              POST
- dirmngr-client                       ppdc
- dirname                              ppdhtml
- dirsplit                             ppdi
- dmesg                                ppdmerge
- dnsdomainname                        ppdpo
- domainname                           pphs
- do-release-upgrade                   pr
- dpkg                                 precat
- dpkg-deb                             preconv
- dpkg-divert                          preunzip
- dpkg-maintscript-helper              prezip
- dpkg-query                           prezip-bin
- dpkg-split                           print
- dpkg-statoverride                    printafm
- dpkg-trigger                         printenv
- driverless                           printerbanner
- du                                   printer-profile
- dumpkeys                             printf
- duplicity                            prlimit
- dvipdf                               prove
- echo                                 prtstat
- ed                                   ps
- edit                                 ps2ascii
- editor                               ps2epsi
- editres                              ps2pdf
- egrep                                ps2pdf12
- eject                                ps2pdf13
- enc2xs                               ps2pdf14
- encguess                             ps2pdfwr
- enchant-2                            ps2ps
- enchant-lsmod-2                      ps2ps2
- env                                  ps2txt
- envsubst                             psfaddtable
- eog                                  psfgettable
- eps2eps                              psfstriptable
- eqn                                  psfxtable
- esc-m                                psicc
- eutp                                 pslog
- evince                               pstree
- evince-previewer                     pstree.x11
- evince-thumbnailer                   ptar
- ex                                   ptardiff
- expand                               ptargrep
- expiry                               ptx
- expr                                 pulseaudio
- factor                               pwd
- faillog                              pwdx
- fallocate                            py3clean
- false                                py3compile
- fc-cache                             py3versions
- fc-cat                               pydoc3
- fc-conflist                          pydoc3.8
- fc-list                              pygettext3
- fc-match                             pygettext3.8
- fc-pattern                           pyjwt3
- fc-query                             python3
- fc-scan                              python3.8
- fc-validate                          python3-futurize
- fgconsole                            python3-pasteurize
- fgrep                                qpdldecode
- file                                 quirks-handler
- file2brl                             rbash
- file-roller                          rcp
- fincore                              rctest
- find                                 rdiffdir
- findmnt                              rdma
- firefox                              readlink
- flock                                realpath
- fmt                                  red
- fold                                 remmina
- fonttosfnt                           remmina-file-wrapper
- foo2ddst                             remmina-gnome
- foo2ddst-wrapper                     rename.ul
- foo2hbpl2                            rendercheck
- foo2hbpl2-wrapper                    renice
- foo2hiperc                           reset
- foo2hiperc-wrapper                   resizecons
- foo2hp                               resizepart
- foo2hp2600-wrapper                   resolvectl
- foo2lava                             rev
- foo2lava-wrapper                     rfcomm
- foo2oak                              rgrep
- foo2oak-wrapper                      rhythmbox
- foo2qpdl                             rhythmbox-client
- foo2qpdl-wrapper                     rlogin
- foo2slx                              rm
- foo2slx-wrapper                      rmdir
- foo2xqx                              rnano
- foo2xqx-wrapper                      routef
- foo2zjs                              routel
- foo2zjs-icc2ps                       rrsync
- foo2zjs-pstops                       rsh
- foo2zjs-wrapper                      rstart
- foomatic-rip                         rstartd
- fprintd-delete                       rsync
- fprintd-enroll                       rtstat
- fprintd-list                         runcon
- fprintd-verify                       run-mailcap
- free                                 run-parts
- from                                 run-with-aspell
- ftp                                  rview
- funzip                               rygel
- fuser                                sane-find-scanner
- fusermount                           savelog
- futurize                             sbattach
- fwupdagent                           sbkeysync
- fwupdate                             sbsiglist
- fwupdmgr                             sbsign
- fwupdtool                            sbvarsign
- fwupdtpmevlog                        sbverify
- gamemoded                            scanimage
- gamemoderun                          scp
- gamma4scanimage                      scp-dbus-service
- gapplication                         screendump
- gatttool                             script
- gcalccmd                             scriptreplay
- gcore                                sdiff
- gcr-viewer                           sdptool
- gdb                                  seahorse
- gdb-add-index                        sed
- gdbserver                            see
- gdbtui                               select-default-iwrap
- gdbus                                select-editor
- gdialog                              sensible-browser
- gdk-pixbuf-csource                   sensible-editor
- gdk-pixbuf-pixdata                   sensible-pager
- gdk-pixbuf-thumbnailer               seq
- gdmflexiserver                       session-migration
- gdm-screenshot                       sessreg
- gedit                                setarch
- genisoimage                          setfacl
- geqn                                 setfont
- GET                                  setkeycodes
- getconf                              setleds
- geteltorito                          setlogcons
- getent                               setmetamode
- getfacl                              setpci
- getkeycodes                          setpriv
- getopt                               setsid
- gettext                              setterm
- gettext.sh                           setupcon
- ghostscript                          setxkbmap
- ginstall-info                        sftp
- gio                                  sg
- gio-querymodules                     sh
- gipddecode                           sha1sum
- git                                  sha224sum
- git-receive-pack                     sha256sum
- git-shell                            sha384sum
- git-upload-archive                   sha512sum
- git-upload-pack                      shasum
- gjs                                  shotwell
- gjs-console                          showconsolefont
- gkbd-keyboard-display                showkey
- glib-compile-schemas                 showrgb
- gnome-calculator                     shred
- gnome-calendar                       shuf
- gnome-characters                     simple-scan
- gnome-control-center                 skill
- gnome-disk-image-mounter             slabtop
- gnome-disks                          sleep
- gnome-extensions                     slogin
- gnome-font-viewer                    slxdecode
- gnome-help                           smproxy
- gnome-keyring                        snap
- gnome-keyring-3                      snapctl
- gnome-keyring-daemon                 snapfuse
- gnome-language-selector              snice
- gnome-logs                           soelim
- gnome-power-statistics               soffice
- gnome-screenshot                     software-properties-gtk
- gnome-session                        sort
- gnome-session-custom-session         spd-conf
- gnome-session-inhibit                spd-say
- gnome-session-properties             speaker-test
- gnome-session-quit                   speech-dispatcher
- gnome-session-remmina                spice-vdagent
- gnome-shell                          splain
- gnome-shell-extension-tool           split
- gnome-shell-perf-tool                splitfont
- gnome-system-monitor                 ss
- gnome-terminal                       ssh
- gnome-terminal.real                  ssh-add
- gnome-terminal.wrapper               ssh-agent
- gnome-text-editor                    ssh-argv0
- gnome-thumbnail-font                 ssh-copy-id
- gnome-todo                           ssh-keygen
- gnome-www-browser                    ssh-keyscan
- gpasswd                              start-pulseaudio-x11
- gpg                                  startx
- gpg-agent                            stat
- gpgcompose                           static-sh
- gpgconf                              stdbuf
- gpg-connect-agent                    strace
- gpgparsemail                         strace-log-merge
- gpgsm                                stty
- gpgsplit                             su
- gpgtar                               sudo
- gpgv                                 sudoedit
- gpg-wks-server                       sudoreplay
- gpg-zip                              sum
- gpic                                 symcryptrun
- gpu-manager                          sync
- grep                                 syslinux
- gresource                            syslinux-legacy
- groff                                system-config-printer
- grog                                 system-config-printer-applet
- grops                                systemctl
- grotty                               systemd
- groups                               systemd-analyze
- grub-editenv                         systemd-ask-password
- grub-file                            systemd-cat
- grub-fstest                          systemd-cgls
- grub-glue-efi                        systemd-cgtop
- grub-kbdcomp                         systemd-delta
- grub-menulst2cfg                     systemd-detect-virt
- grub-mkfont                          systemd-escape
- grub-mkimage                         systemd-hwdb
- grub-mklayout                        systemd-id128
- grub-mknetdir                        systemd-inhibit
- grub-mkpasswd-pbkdf2                 systemd-machine-id-setup
- grub-mkrelpath                       systemd-mount
- grub-mkrescue                        systemd-notify
- grub-mkstandalone                    systemd-path
- grub-mount                           systemd-resolve
- grub-ntldr-img                       systemd-run
- grub-render-label                    systemd-socket-activate
- grub-script-check                    systemd-stdio-bridge
- grub-syslinux2cfg                    systemd-sysusers
- gs                                   systemd-tmpfiles
- gsbj                                 systemd-tty-ask-password-agent
- gsdj                                 systemd-umount
- gsdj500                              tabs
- gsettings                            tac
- gslj                                 tail
- gslp                                 tar
- gsnd                                 taskset
- gst-device-monitor-1.0               tbl
- gst-discoverer-1.0                   tee
- gst-inspect-1.0                      telnet
- gst-launch-1.0                       telnet.netkit
- gst-play-1.0                         tempfile
- gstreamer-codec-install              test
- gst-typefind-1.0                     tgz
- gtbl                                 thunderbird
- gtf                                  tic
- gtk-builder-tool                     tificc
- gtk-encode-symbolic-svg              time
- gtk-launch                           timedatectl
- gtk-query-settings                   timeout
- gtk-update-icon-cache                tload
- gunzip                               toe
- gvfs-cat                             top
- gvfs-copy                            totem
- gvfs-info                            totem-video-thumbnailer
- gvfs-less                            touch
- gvfs-ls                              tput
- gvfs-mime                            tr
- gvfs-mkdir                           tracepath
- gvfs-monitor-dir                     traceroute6
- gvfs-monitor-file                    traceroute6.iputils
- gvfs-mount                           tracker
- gvfs-move                            transicc
- gvfs-open                            transmission-gtk
- gvfs-rename                          transset
- gvfs-rm                              troff
- gvfs-save                            true
- gvfs-set-attribute                   truncate
- gvfs-trash                           trust
- gvfs-tree                            tset
- gzexe                                tsort
- gzip                                 ttfread
- h2ph                                 tty
- h2xs                                 tzselect
- hbpldecode                           ua
- hciattach                            ubuntu-advantage
- hciconfig                            ubuntu-bug
- hcitool                              ubuntu-core-launcher
- hd                                   ubuntu-drivers
- head                                 ubuntu-report
- HEAD                                 ubuntu-security-status
- helpztags                            ucf
- hex2hcd                              ucfq
- hexdump                              ucfr
- hipercdecode                         ucs2any
- host                                 udevadm
- hostid                               udisksctl
- hostname                             ul
- hostnamectl                          ulockmgr_server
- hp-align                             umax_pp
- hp-check                             umount
- hp-clean                             uname
- hp-colorcal                          unattended-upgrade
- hp-config_usb_printer                unattended-upgrades
- hp-doctor                            uncompress
- hp-firmware                          unexpand
- hp-info                              unicode_start
- hp-levels                            unicode_stop
- hp-logcapture                        uniq
- hp-makeuri                           unity-scope-loader
- hp-pkservice                         unlink
- hp-plugin                            unlz4
- hp-plugin-ubuntu                     unlzma
- hp-probe                             unmkinitramfs
- hp-query                             unopkg
- hp-scan                              unshare
- hp-setup                             unsquashfs
- hp-testpage                          unxz
- hp-timedate                          unzip
- hwe-support-status                   unzipsfx
- i386                                 update-alternatives
- i686-linux-gnu-pkg-config            update-desktop-database
- ibus                                 update-manager
- ibus-daemon                          update-mime-database
- ibus-setup                           update-notifier
- ibus-table-createdb                  upower
- iceauth                              uptime
- ico                                  usb-creator-gtk
- iconv                                usb-devices
- id                                   usbhid-dump
- iecset                               usb_printerid
- ijs_pxljr                            usbreset
- im-config                            users
- im-launch                            utmpdump
- info                                 uuidgen
- infobrowser                          uuidparse
- infocmp                              uz
- infotocap                            vdir
- inputattach                          vi
- install                              view
- install-info                         viewres
- install-printerdriver                vim.tiny
- instmodsh                            vmstat
- intel-virtual-output                 vmwarectrl
- ionice                               volname
- ip                                   vstp
- ipcmk                                w
- ipcrm                                wall
- ipcs                                 watch
- ipod-read-sysinfo-extended           watchgnupg
- ipod-time-sync                       wc
- ippfind                              wdctl
- ipptool                              wget
- iptables-xml                         whatis
- ischroot                             whereis
- isdv4-serial-debugger                which
- isdv4-serial-inputattach             whiptail
- isodump                              who
- isoinfo                              whoami
- isovfy                               whoopsie
- ispell-wrapper                       whoopsie-preferences
- join                                 word-list-compress
- journalctl                           wpa_passphrase
- jpgicc                               w.procps
- json_pp                              write
- kbdinfo                              X
- kbd_mode                             X11
- kbxutil                              x11perf
- kernel-install                       x11perfcomp
- kerneloops-submit                    x86_64
- keyring                              x86_64-linux-gnu-cpp
- kill                                 x86_64-linux-gnu-cpp-9
- killall                              x86_64-linux-gnu-pkg-config
- kmod                                 x86_64-pc-linux-gnu-pkg-config
- kmodsign                             xargs
- l2ping                               xauth
- l2test                               xbiff
- laptop-detect                        xbrlapi
- last                                 xcalc
- lastb                                xclipboard
- lastlog                              xclock
- lavadecode                           xcmsdb
- lcf                                  xconsole
- ldd                                  xcursorgen
- less                                 xcutsel
- lessecho                             xdg-dbus-proxy
- lessfile                             xdg-desktop-icon
- lesskey                              xdg-desktop-menu
- lesspipe                             xdg-email
- lexgrog                              xdg-icon-resource
- libnetcfg                            xdg-mime
- libreoffice                          xdg-open
- libwacom-list-local-devices          xdg-screensaver
- link                                 xdg-settings
- linkicc                              xdg-user-dir
- linux32                              xdg-user-dirs-gtk-update
- linux64                              xdg-user-dirs-update
- linux-boot-prober                    xditview
- linux-check-removal                  xdpyinfo
- linux-update-symlinks                xdriinfo
- linux-version                        xedit
- listres                              Xephyr
- ln                                   xev
- lnstat                               xeyes
- loadkeys                             xfd
- loadunimap                           xfontsel
- localc                               xgamma
- locale                               xgc
- locale-check                         xhost
- localectl                            xinit
- localedef                            xinput
- lodraw                               xkbbell
- loffice                              xkbcomp
- lofromtemplate                       xkbevd
- logger                               xkbprint
- login                                xkbvleds
- loginctl                             xkbwatch
- logname                              xkeystone
- loimpress                            xkill
- lomath                               xload
- look                                 xlogo
- lorder                               xlsatoms
- loweb                                xlsclients
- lowntfs-3g                           xlsfonts
- lowriter                             xmag
- lp                                   xman
- lpoptions                            xmessage
- lpq                                  xmodmap
- lpr                                  xmore
- lprm                                 Xorg
- lp_solve                             xprop
- lpstat                               xqxdecode
- ls                                   xrandr
- lsattr                               xrdb
- lsblk                                xrefresh
- lsb_release                          x-session-manager
- lscpu                                xset
- lshw                                 xsetmode
- lsinitramfs                          xsetpointer
- lsipc                                xsetroot
- lslocks                              xsetwacom
- lslogins                             xsm
- lsmem                                xstdcmap
- lsmod                                xsubpp
- lsns                                 x-terminal-emulator
- lsof                                 xvidtune
- lspci                                xvinfo
- lspgpot                              Xwayland
- lsusb                                xwd
- ltrace                               x-window-manager
- luit                                 xwininfo
- lwp-download                         xwud
- lwp-dump                             x-www-browser
- lwp-mirror                           xxd
- lwp-request                          xz
- lz                                   xzcat
- lz4                                  xzcmp
- lz4c                                 xzdiff
- lz4cat                               xzegrep
- lzcat                                xzfgrep
- lzcmp                                xzgrep
- lzdiff                               xzless
- lzegrep                              xzmore
- lzfgrep                              yelp
- lzgrep                               yes
- lzless                               ypdomainname
- lzma                                 zcat
- lzmainfo                             zcmp
- lzmore                               zdiff
- m2300w                               zdump
- m2300w-wrapper                       zegrep
- m2400w                               zenity
- mako-render                          zfgrep
- man                                  zforce
- mandb                                zgrep
- manpath                              zip
- man-recode                           zipcloak
- mapscrn                              zipdetails
- mattrib                              zipgrep
- mawk                                 zipinfo
- mbadblocks                           zipnote
- mcat                                 zipsplit
- mcd                                  zjsdecode
- mcheck                               zless
- mclasserase                          zmore
- mcomp                                znew
- mcookie
-wilder@wilder-ThinkPad-T440p:~$ ls -l /bin
-lrwxrwxrwx 1 root root 7 sept.  3 15:40 /bin -> usr/bin
-wilder@wilder-ThinkPad-T440p:~$ pwd
-/home/wilder
-wilder@wilder-ThinkPad-T440p:~$ cd Images
-wilder@wilder-ThinkPad-T440p:~/Images$ cd ..
-wilder@wilder-ThinkPad-T440p:~$ cd /opt
-wilder@wilder-ThinkPad-T440p:/opt$ cd ..
-wilder@wilder-ThinkPad-T440p:/$ /home/wilder
-bash: /home/wilder : est un dossier
-wilder@wilder-ThinkPad-T440p:/$ cd /home/wilder
-wilder@wilder-ThinkPad-T440p:~$ cd
-wilder@wilder-ThinkPad-T440p:~$ cd ~/Music
-bash: cd: /home/wilder/Music: Aucun fichier ou dossier de ce type
-wilder@wilder-ThinkPad-T440p:~$ ls ~·Downloads
-ls: impossible d'accéder à '~·Downloads': Aucun fichier ou dossier de ce type
-wilder@wilder-ThinkPad-T440p:~$ ^C
-wilder@wilder-ThinkPad-T440p:~$ 
-# Gist
+
+wilder@wilder-ThinkPad-T440p:~$ cd planets
+wilder@wilder-ThinkPad-T440p:~/planets$ mkdir -p planets/real/fictional/inhabited
+mkdir: impossible de créer le répertoire «planets»: N'est pas un dossier
+wilder@wilder-ThinkPad-T440p:~/planets$ cd ..
+wilder@wilder-ThinkPad-T440p:~$ git it
+git : 'it' n'est pas une commande git. Voir 'git --help'.
+
+La commande la plus ressemblante est
+	init
+wilder@wilder-ThinkPad-T440p:~$ git init
+Dépôt Git vide initialisé dans /home/wilder/.git/
+wilder@wilder-ThinkPad-T440p:~$ cd planets
+wilder@wilder-ThinkPad-T440p:~/planets$ 
+wilder@wilder-ThinkPad-T440p:~/planets$ mkdir real
+wilder@wilder-ThinkPad-T440p:~/planets$ mkdir fictional
+wilder@wilder-ThinkPad-T440p:~/planets$ mkdir inhabited
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ mkdir terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets/real$ mkdir gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ mkdir dwarf-planets
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp pluto.jpeg/real
+cp: opérande de fichier cible manquant après 'pluto.jpeg/real'
+Saisissez « cp --help » pour plus d'informations.
+wilder@wilder-ThinkPad-T440p:~/planets$ cp pluto.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+dwarf-planets  gas-giants  pluto.jpeg  terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp pluto.jpeg dwarf-planets
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls dwarf-planets
+dwarf-planets  gas-giants  pluto.jpeg  terrestrial
+pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp arrakis fictional
+cp: impossible d'évaluer 'arrakis': Aucun fichier ou dossier de ce type
+wilder@wilder-ThinkPad-T440p:~/planets$ cp arrakis.jpeg fictional
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls fictional
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+arrakis.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp coruscant.jpeg fictional
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls fictional
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+arrakis.jpeg  coruscant.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cybertron.jpeg fictional
+cybertron.jpeg : commande introuvable
+wilder@wilder-ThinkPad-T440p:~/planets$ cp cybertron.jpeg fictional
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls fictional
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp earth.jpeg terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ cp earth.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp earth.jpeg terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls terrestrial
+dwarf-planets  earth.jpeg  gas-giants  pluto.jpeg  terrestrial
+earth.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp jupiter.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp jupiter.jpeg gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls gas-giants
+dwarf-planets  earth.jpeg  gas-giants  jupiter.jpeg  pluto.jpeg  terrestrial
+jupiter.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp mars.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+dwarf-planets  gas-giants    mars.jpeg   terrestrial
+earth.jpeg     jupiter.jpeg  pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp mars.jpeg gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls gas-giants
+dwarf-planets  gas-giants    mars.jpeg   terrestrial
+earth.jpeg     jupiter.jpeg  pluto.jpeg
+jupiter.jpeg  mars.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp mercury.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  real         venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     planets       saturn.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  pluto.jpeg    uranus.jpeg
+dwarf-planets  gas-giants    mars.jpeg     pluto.jpeg
+earth.jpeg     jupiter.jpeg  mercury.jpeg  terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp mercury.jpeg gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls gas-giants
+dwarf-planets  gas-giants    mars.jpeg     pluto.jpeg
+earth.jpeg     jupiter.jpeg  mercury.jpeg  terrestrial
+jupiter.jpeg  mars.jpeg  mercury.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp neptune.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    uranus.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  real          venus.jpeg
+dwarf-planets  gas-giants    mars.jpeg     neptune.jpeg  terrestrial
+earth.jpeg     jupiter.jpeg  mercury.jpeg  pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp neptune.jpeg gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls gas-giants
+dwarf-planets  gas-giants    mars.jpeg     neptune.jpeg  terrestrial
+earth.jpeg     jupiter.jpeg  mercury.jpeg  pluto.jpeg
+jupiter.jpeg  mars.jpeg  mercury.jpeg  neptune.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp saturn.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    uranus.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  real          venus.jpeg
+dwarf-planets  gas-giants    mars.jpeg     neptune.jpeg  saturn.jpeg
+earth.jpeg     jupiter.jpeg  mercury.jpeg  pluto.jpeg    terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp saturn.jpeg gas-giants
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls gas-giants
+dwarf-planets  gas-giants    mars.jpeg     neptune.jpeg  saturn.jpeg
+earth.jpeg     jupiter.jpeg  mercury.jpeg  pluto.jpeg    terrestrial
+jupiter.jpeg  mars.jpeg  mercury.jpeg  neptune.jpeg  saturn.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp uranus.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    uranus.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  real          venus.jpeg
+dwarf-planets  jupiter.jpeg  neptune.jpeg  terrestrial
+earth.jpeg     mars.jpeg     pluto.jpeg    uranus.jpeg
+gas-giants     mercury.jpeg  saturn.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp uranus.jpeg terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls terrestrial
+dwarf-planets  jupiter.jpeg  neptune.jpeg  terrestrial
+earth.jpeg     mars.jpeg     pluto.jpeg    uranus.jpeg
+gas-giants     mercury.jpeg  saturn.jpeg
+earth.jpeg  uranus.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp venus.jpeg real
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls real
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    uranus.jpeg
+cybertron.jpeg  inhabited   mercury.jpeg  real          venus.jpeg
+dwarf-planets  jupiter.jpeg  neptune.jpeg  terrestrial
+earth.jpeg     mars.jpeg     pluto.jpeg    uranus.jpeg
+gas-giants     mercury.jpeg  saturn.jpeg   venus.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp venus.jpeg terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls terrestrial
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    terrestrial
+cybertron.jpeg  inhabited   mercury.jpeg  real          uranus.jpeg
+terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets$ cd terrestrial
+bash: cd: terrestrial: N'est pas un dossier
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cp venus.jpeg terrestrial
+wilder@wilder-ThinkPad-T440p:~/planets/real$ ls ; ls terrestrial
+dwarf-planets  jupiter.jpeg  neptune.jpeg  terrestrial
+earth.jpeg     mars.jpeg     pluto.jpeg    uranus.jpeg
+gas-giants     mercury.jpeg  saturn.jpeg   venus.jpeg
+earth.jpeg  uranus.jpeg  venus.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cp arrakis.jpeg inhabited
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls inhabited
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    terrestrial
+cybertron.jpeg  inhabited   mercury.jpeg  real          uranus.jpeg
+arrakis.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp coruscant.jpeg inhabited
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls inhabited
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    terrestrial
+cybertron.jpeg  inhabited   mercury.jpeg  real          uranus.jpeg
+arrakis.jpeg  coruscant.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp cybertron.jpeg inhabited
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls inhabited
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    terrestrial
+cybertron.jpeg  inhabited   mercury.jpeg  real          uranus.jpeg
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp earth.jpeg inhabited
+wilder@wilder-ThinkPad-T440p:~/planets$ ls ; ls inhabited
+arrakis.jpeg    earth.jpeg  jupiter.jpeg  neptune.jpeg  saturn.jpeg  venus.jpeg
+coruscant.jpeg  fictional   mars.jpeg     pluto.jpeg    terrestrial
+cybertron.jpeg  inhabited   mercury.jpeg  real          uranus.jpeg
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  earth.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd dwarf-planets
+wilder@wilder-ThinkPad-T440p:~/planets/real/dwarf-planets$ rm pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real/dwarf-planets$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets/real$ rm pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ rm pluto.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ find
+.
+./fictional
+./fictional/cybertron.jpeg
+./fictional/coruscant.jpeg
+./fictional/arrakis.jpeg
+./cybertron.jpeg
+./uranus.jpeg
+./mercury.jpeg
+./venus.jpeg
+./mars.jpeg
+./terrestrial
+./earth.jpeg
+./saturn.jpeg
+./inhabited
+./inhabited/cybertron.jpeg
+./inhabited/earth.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/arrakis.jpeg
+./neptune.jpeg
+./real
+./real/uranus.jpeg
+./real/mercury.jpeg
+./real/venus.jpeg
+./real/mars.jpeg
+./real/dwarf-planets
+./real/gas-giants
+./real/gas-giants/mercury.jpeg
+./real/gas-giants/mars.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/jupiter.jpeg
+./real/terrestrial
+./real/terrestrial/uranus.jpeg
+./real/terrestrial/venus.jpeg
+./real/terrestrial/earth.jpeg
+./real/earth.jpeg
+./real/saturn.jpeg
+./real/neptune.jpeg
+./real/jupiter.jpeg
+./coruscant.jpeg
+./arrakis.jpeg
+./jupiter.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets$ cp real
+cp: opérande de fichier cible manquant après 'real'
+Saisissez « cp --help » pour plus d'informations.
+wilder@wilder-ThinkPad-T440p:~/planets$ cd real
+wilder@wilder-ThinkPad-T440p:~/planets/real$ find
+.
+./uranus.jpeg
+./mercury.jpeg
+./venus.jpeg
+./mars.jpeg
+./dwarf-planets
+./gas-giants
+./gas-giants/mercury.jpeg
+./gas-giants/mars.jpeg
+./gas-giants/saturn.jpeg
+./gas-giants/neptune.jpeg
+./gas-giants/jupiter.jpeg
+./terrestrial
+./terrestrial/uranus.jpeg
+./terrestrial/venus.jpeg
+./terrestrial/earth.jpeg
+./earth.jpeg
+./saturn.jpeg
+./neptune.jpeg
+./jupiter.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/real$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cd inhabited
+wilder@wilder-ThinkPad-T440p:~/planets/inhabited$ find
+.
+./cybertron.jpeg
+./earth.jpeg
+./coruscant.jpeg
+./arrakis.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/inhabited$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ cd fictional
+wilder@wilder-ThinkPad-T440p:~/planets/fictional$ find
+.
+./cybertron.jpeg
+./coruscant.jpeg
+./arrakis.jpeg
+wilder@wilder-ThinkPad-T440p:~/planets/fictional$ cd ..
+wilder@wilder-ThinkPad-T440p:~/planets$ 
